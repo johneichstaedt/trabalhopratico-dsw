@@ -67,8 +67,11 @@ function valida_formCadUs (){
             }else if(document.getElementById("telefone").value == ""){
                 document.getElementById("telefone").focus();
                 return false
-              }else{
-                  return true;
+              }else if(document.getElementById("senhaUs").value == ""){
+                  document.getElementById("senhaUs").focus();
+                  return false
+                }else{
+                    return true;
                 }
 }
 /*
@@ -86,6 +89,7 @@ function limpaTudo(){
   document.getElementById('registroGeral').value="";
   document.getElementById('e-mail').value="";
   document.getElementById('telefone').value="";
+  document.getElementById('senhaUs').value="";
 
 }
 

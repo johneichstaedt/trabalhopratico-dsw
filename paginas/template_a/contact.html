@@ -4,16 +4,17 @@
 
 	<!-- start: Meta -->
 	<meta charset="utf-8">
-	<title>MAGNUS BOOTSTRAP THEME by creativeLabs</title> 
-	<meta name="description" content="Magnus Bootstrap Theme"/>
+	<title>Farmácia Saúde Ltda</title>
+	<link rel="icon" href="../../img/favicon.png">
+	<meta name="description" content=""/>
 	<meta name="keywords" content="Template, Theme, web, html5, css3, Bootstrap" />
-	<meta name="author" content="Łukasz Holeczek from creativeLabs"/>
+	<meta name="author" content="John F. Eichstaedt"/>
 	<!-- end: Meta -->
-	
+
 	<!-- start: Mobile Specific -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<!-- end: Mobile Specific -->
-	
+
 	<!-- start: Facebook Open Graph -->
 	<meta property="og:title" content=""/>
 	<meta property="og:description" content=""/>
@@ -23,8 +24,8 @@
 	<!-- end: Facebook Open Graph -->
 
     <!-- start: CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/bootstrap-responsive.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Droid+Sans:400,700">
 	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Droid+Serif">
@@ -44,13 +45,13 @@
 
 </head>
 <body>
-	
+
 	<!--start: Header -->
 	<header>
-		
+
 		<!--start: Container -->
 		<div class="container">
-			
+
 			<!--start: Navigation -->
 			<div class="navbar navbar-inverse">
 	    		<div class="navbar-inner">
@@ -59,41 +60,42 @@
 	            		<span class="icon-bar"></span>
 	            		<span class="icon-bar"></span>
 	          		</a>
-					<a class="brand" href="#"><i class="ico-thin-right-arrow ico-color circle"></i> Magnu<span>s</span>.</a>
+					<a class="brand" href="pagina_inicial_a.html"><i class="ico-thin-right-arrow ico-color circle"></i> Farmácia<span>&nbsp;Saúde</span>.</a>
 	          		<div class="nav-collapse collapse">
 	            		<ul class="nav">
-							<li><a href="index.html">Home</a></li>
-	              			<li><a href="about.html">About</a></li>
+							<li><a href="pagina_inicial_a.html">Home</a></li>
+	              			<li><a href="about.html">Sobre</a></li>
 							<li class="dropdown">
-	                			<a href="#" class="dropdown-toggle" data-toggle="dropdown">Features<b class="caret"></b></a>
+	                			<a href="#" class="dropdown-toggle" data-toggle="dropdown">Produtos<b class="caret"></b></a>
 	                			<ul class="dropdown-menu">
-	                  				<li><a href="social-icons.html">Social Icons</a></li>
-									<li><a href="icons.html">Icons</a></li>
-									<li><a href="typography.html">Typography</a></li>
-									<li><a href="shortcodes.html">Shortcodes</a></li>
-									<li><a href="list-styles.html">List Styles</a></li>
+	                  				<li><a href="#">Perfumaria</a></li>
+									<li><a href="#">Genéricos</a></li>
+									<li><a href="#">Similares</a></li>
+									<li><a href="#">Referência</a></li>
+									<li><a href="#">Saúde</a></li>
 	                			</ul>
 	              			</li>
 							<li class="dropdown">
-	                			<a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio<b class="caret"></b></a>
+	                			<a href="#" class="dropdown-toggle" data-toggle="dropdown">Rede<b class="caret"></b></a>
 	                			<ul class="dropdown-menu">
-	                  				<li><a href="portfolio3.html">3 Columns</a></li>
-									<li><a href="portfolio4.html">4 Columns</a></li>
+	                  				<li><a href="#">Blumenau</a></li>
+									<li><a href="#">Florianópolis</a></li>
+									<li><a href="#">Ibirama</a></li>
+									<li><a href="#">Joinville</a></li>
 	                			</ul>
-	              			</li>									
-							<li><a href="services.html">Services</a></li>
-							<li><a href="pricing.html">Pricing</a></li>
-							<li><a href="blog.html">Blog</a></li>
-	              			<li class="active"><a href="contact.html">Contact</a></li>
+	              			</li>
+							<li><a href="#">Serviços</a></li>
+	              			<li class="active"><a href="contact.html">Contato</a></li>
+											<li><a href="../../index.html"><img src="img/icons/configweb.png" alt="configuração site" title="Área administrador do site" /></a></li>
 	            		</ul>
 	          		</div>
 	        	</div>
-	      	</div>	
+	      	</div>
 			<!--end: Navigation -->
-											
+
 		</div>
-		<!--end: Container-->			
-			
+		<!--end: Container-->
+
 	</header>
 	<!--end: Header-->
 
@@ -110,7 +112,7 @@
 			$('#googlemaps').gMap({
 				controls: {
 					panControl: false,
-					zoomControl: false,
+					zoomControl: true,
 					mapTypeControl: false,
 					scaleControl: false,
 					streetViewControl: false,
@@ -118,11 +120,12 @@
 				},
 				maptype: 'ROADMAP',
 				scrollwheel: false,
-				zoom: 13,
-				
+				zoom: 11,
+
 				markers: [
 					{
-						address: 'San Francisco, United States', // Your Adress Here
+						//address: 'San Francisco, United States', // Your Adress Here
+						address: 'Ibirama, Brazil', // Your Adress Here
 						html: '',
 						popup: false,
 					}
@@ -132,48 +135,48 @@
 		</script>
 		<!-- end: Google Maps -->
 	</div>
-	<!-- end: Map -->	
-	
-	<!-- start: Wrapper -->	
-	<div id="wrapper">		
-		
-		<!-- start: Container -->	
+	<!-- end: Map -->
+
+	<!-- start: Wrapper -->
+	<div id="wrapper">
+
+		<!-- start: Container -->
 		<div class="container">
-			
+
 			<hr>
 			<!-- start: Row -->
 			<div class="row">
-			
+
 				<!-- start: Contact Info -->
 				<div class="span3">
-					<div class="title-out"><h3>Contact Info</h3></div>
+					<div class="title-out"><h3>Contatos</h3></div>
 					<p>
-						<i class="mini-ico-home"></i> <b>creativeLabs</b>
-					</p>
-					<p>
-						<i class="mini-ico-map-marker"></i> 30 South Park Avenue
-					</p>
-					<p>	
-						<i class="mini-ico-map-marker"></i> San Francisco, CA 94108, USA
-					</p>	
-					<p>	
-						<i class="ico-zg-iphone"></i> Phone: (123) 456-7890
-					</p>
-					<p>	
-						<i class="mini-ico-print"></i> Fax: +08 (123) 456-7890
+						<i class="mini-ico-home"></i> <b>Farmácia Saúde</b>
 					</p>
 					<p>
-						<i class="mini-ico-envelope"></i> Email: contact@companyname.com
+						<i class="mini-ico-map-marker"></i> Rua Juscelino Kubitechk
 					</p>
 					<p>
-						<i class="mini-ico-globe"></i> Web: companyname.com
+						<i class="mini-ico-map-marker"></i> Florianópolis, SC 4005, Brasil
+					</p>
+					<p>
+						<i class="ico-zg-iphone"></i> Fone: (47) 4522-7890
+					</p>
+					<p>
+						<i class="mini-ico-print"></i> Fax: (47) 4522-7899
+					</p>
+					<p>
+						<i class="mini-ico-envelope"></i> Email: vendas@farmaciasaude.com
+					</p>
+					<p>
+						<i class="mini-ico-globe"></i> Web: farmaciasaude.com.br
 					</p>
 				</div>
-				<!-- end: Contact Info -->		
+				<!-- end: Contact Info -->
 
 				<!-- start: Contact Form -->
 				<div class="span4">
-					<div class="title-out"><h3>Contact Form</h3></div>
+					<div class="title-out"><h3>Formulário de contato</h3></div>
 
 					<!-- start: Contact Form -->
 					<div id="contact-form">
@@ -182,7 +185,7 @@
 
 							<fieldset>
 								<div class="clearfix">
-									<label for="name"><span>Name:</span></label>
+									<label for="name"><span>Nome:</span></label>
 									<div class="input">
 										<input tabindex="1" size="18" id="name" name="name" type="text" value="">
 									</div>
@@ -196,14 +199,14 @@
 								</div>
 
 								<div class="clearfix">
-									<label for="message"><span>Message:</span></label>
+									<label for="message"><span>Mensagem:</span></label>
 									<div class="input">
 										<textarea tabindex="3" class="input-xlarge" id="message" name="body" rows="7"></textarea>
 									</div>
 								</div>
 
 								<div class="actions">
-									<button tabindex="3" type="submit" class="btn btn-large">Send message</button>
+									<button tabindex="3" type="submit" class="btn btn-large">Enviar mensagem</button>
 								</div>
 							</fieldset>
 
@@ -217,7 +220,7 @@
 
 				<!-- start: Social Sites -->
 				<div class="span5">
-					<div class="title-out"><h3>Follow US!</h3></div>
+					<div class="title-out"><h3>Siga-nos!</h3></div>
 					<ul class="social-bookmarks">
 						<li class="aim"><a href="#">aim</a></li>
 						<li class="apple"><a href="#">apple</a></li>
@@ -271,84 +274,84 @@
 					</ul>
 				</div>
 				<!-- end: Social Sites -->
-			
+
 			</div>
 			<!-- end: Row -->
 
 		</div>
 		<!-- end: Container -->
-				
+
   	</div>
-	<!-- end: Wrapper  -->			
+	<!-- end: Wrapper  -->
 
 	<!-- start: Footer -->
 	<div id="footer">
-		
+
 		<!-- start: Container -->
 		<div class="container">
-			
+
 			<!-- start: Row -->
 			<div class="row">
 
 				<!-- start: About -->
 				<div class="span3">
-					
-					<h3>creativeLabs</h3>
 
-					<p>
-						<i class="mini-ico-map-marker mini-white"></i> 30 South Park Avenue
-					</p>
-					<p>	
-						<i class="mini-ico-map-marker mini-white"></i> San Francisco, CA 94108, USA
-					</p>	
-					<p>	
-						<i class="ico-z-iphone"></i> Phone: (123) 456-7890
-					</p>
-					<p>	
-						<i class="mini-ico-print mini-white"></i> Fax: +08 (123) 456-7890
-					</p>
-					<p>
-						<i class="mini-ico-envelope mini-white"></i> Email: contact@companyname.com
-					</p>
-					<p>
-						<i class="mini-ico-globe mini-white"></i> Web: companyname.com
-					</p>
-						
+						<h3>Farmácia Saúde Ltda</h3>
+
+						<p>
+								<i class="mini-ico-map-marker mini-white"></i> Rua Juscelino Kubiteck, 4008
+						</p>
+						<p>
+								<i class="mini-ico-map-marker mini-white"></i> Florianópolis, SC 45677, Brasil
+						</p>
+						<p>
+								<i class="ico-z-iphone"></i> Fone: (49) 3244-8900
+						</p>
+						<p>
+								<i class="mini-ico-print mini-white"></i> Fax: (49) 3244-8900
+						</p>
+						<p>
+								<i class="mini-ico-envelope mini-white"></i> Email: vendas@farmaciasaude.com
+						</p>
+						<p>
+								<i class="mini-ico-globe mini-white"></i> Web: farmaciasaude.com.br
+						</p>
+
 				</div>
 				<!-- end: About -->
 
 				<!-- start: Latest Tweets -->
 				<div class="span3">
-					
+
 					<h3>Latest Tweets</h3>
-					
+
 					<ul id="twitter">
-						
+
 					</ul>
 
 					<div class="clear"></div>
-					
-					
+
+
 				</div>
 				<!-- end: Latest Tweets -->
 
 				<!-- start: Photo Stream -->
 				<div class="span3">
-					
+
 					<h3>Flickr Photo Stream</h3>
 					<div class="flickr-widget">
 						<script type="text/javascript" src="http://www.flickr.com/badge_code_v2.gne?count=9&display=latest&size=s&layout=x&source=user&user=29609591@N08"></script>
 						<div class="clear"></div>
 					</div>
-					
+
 				</div>
 				<!-- end: Photo Stream -->
-				
+
 				<!-- start: Follow Us -->
 				<div class="span3">
-					
+
 					<h3>Follow Us</h3>
-					
+
 					<div id="social-r" class="tooltips">
 						<a href="#" rel="tooltip" title="Amazon" class="amazon">Amazon</a>
 						<a href="#" rel="tooltip" title="Behance" class="behance">Behance</a>
@@ -378,95 +381,67 @@
 						<a href="#" rel="tooltip" title="Yahoo" class="yahoo">Yahoo</a>
 						<a href="#" rel="tooltip" title="YouTube" class="youtube">YouTube</a>
 					</div>
-				
+
 				</div>
 				<!-- end: Follow Us -->
-				
+
 			</div>
-			<!-- end: Row -->	
-			
+			<!-- end: Row -->
+
 		</div>
 		<!-- end: Container  -->
 
 	</div>
 	<!-- end: Footer -->
-	
+
 	<!-- start: Footer Menu -->
 	<div id="footer-menu" class="hidden-tablet hidden-phone">
 
 		<!-- start: Container -->
 		<div class="container">
-			
+
 			<!-- start: Row -->
 			<div class="row">
 
 				<!-- start: Footer Menu Logo -->
 				<div class="span2">
 					<div id="footer-menu-logo">
-						<a class="brand" href="#">Magnu<span>s</span>.</a>
+						<a class="brand" href="#">Farmácia<span>&nbsp;Saúde</span>.</a>
 					</div>
 				</div>
 				<!-- end: Footer Menu Logo -->
 
 				<!-- start: Footer Menu Links-->
-				<div class="span9">
-					
-					<div id="footer-menu-links">
-
-						<ul id="footer-nav">
-
-							<li><a href="index.html">Start</a></li>
-
-							<li><a href="about.html">About</a></li>
-
-							<li><a href="services.html">Services</a></li>
-
-							<li><a href="pricing.html">Pricing</a></li>
-							
-							<li><a href="contact.html">Contact</a></li>
-
-						</ul>
-
-					</div>
-					
-				</div>
-				<!-- end: Footer Menu Links-->
+								<!-- end: Footer Menu Links-->
 
 				<!-- start: Footer Menu Back To Top -->
-				<div class="span1">
-						
-					<div id="footer-menu-back-to-top">
-						<a href="#"></a>
-					</div>
-				
-				</div>
 				<!-- end: Footer Menu Back To Top -->
-			
+
 			</div>
 			<!-- end: Row -->
-			
-		</div>
-		<!-- end: Container  -->	
 
-	</div>	
+		</div>
+		<!-- end: Container  -->
+
+	</div>
 	<!-- end: Footer Menu -->
 
 	<!-- start: Copyright -->
 	<div id="copyright">
-	
+
 		<!-- start: Container -->
 		<div class="container">
-		
+
 			<div class="sixteen columns">
 				<p>
 					&copy; 2012, <a href="http://clabs.co">creativeLabs</a>. Designed by <a href="http://clabs.co">creativeLabs</a> in Poland <img src="img/poland.png" alt="Poland" style="margin-top:-4px">
 				</p>
 			</div>
-	
+
 		</div>
 		<!-- end: Container  -->
-		
-	</div>	
+
+	</div>
 	<!-- end: Copyright -->
 
 <!-- start: Java Script -->
